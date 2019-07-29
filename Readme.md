@@ -1,0 +1,3 @@
+Esse mini projeto foi um exercício proposto do curso de OO usando a linguagem C#, Em que foi dado o texto problema e como seria a interação com o usuário usando a aplicação. Foi elaborado por mim tanto o diagramas de classe, como a aplicação que tinha como foco usar de interface, inversão de controle e injeção de dependência.
+
+This mini project was a proposed exercise of the OO course using the C# language, where was given the problem text and what wourld user interaction be like using the app. It was made by me both the class diagrams, as the application what was focused on using interface, control inversion and depndency injection.
