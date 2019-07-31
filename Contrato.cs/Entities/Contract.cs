@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Contrato.cs.Entities
+namespace Contrato.Entities
 {
     class Contract
     {
@@ -15,6 +15,16 @@ namespace Contrato.cs.Entities
             Number = number;
             Date = date;
             TotalValue = totalValue;
+        }
+
+        public void AddInstallments(Installment installment)
+        {
+            ListInstallments.Add(installment);
+        }
+
+        public void RemoveInstallments(Installment installment)
+        {
+            ListInstallments.Remove(installment);
         }
     }
 }

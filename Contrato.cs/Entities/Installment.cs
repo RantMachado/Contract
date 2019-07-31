@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Contrato.cs.Entities
+namespace Contrato.Entities
 {
     class Installment
     {
