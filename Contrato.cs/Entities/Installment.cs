@@ -6,17 +6,17 @@ namespace Contrato.Entities
     class Installment
     {
         public DateTime DueDate { get; private set; }
-        public double Amount { get; private set; }
+        public double InstallmentAmount { get; private set; }
 
-        public Installment(DateTime dueDate, double amount)
+        public Installment(DateTime dueDate, double installmentAmout)
         {
             DueDate = dueDate;
-            Amount = amount;
+            InstallmentAmount = installmentAmout;
         }
 
         public override string ToString()
         {
-            return DueDate.ToString("dd/MM/yyyy") + " - " + Amount.ToString("F2", CultureInfo.InvariantCulture);
+            return DueDate.ToString("dd/MM/yyyy") + " - " + InstallmentAmount.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }

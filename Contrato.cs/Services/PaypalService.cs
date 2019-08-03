@@ -2,10 +2,10 @@
 {
     class PaypalService : IOnlinePaymentService
     {
-        public double SimpleInterestRate(double portionValue, int currentMonth)
+        public double SimpleInterestRate(double portionRate, int currentMonth)
         {
-            portionValue *= 0.01 * currentMonth;
-            return portionValue;
+            portionRate *= 0.01 * currentMonth;
+            return portionRate;
         }
 
         public double PaymentFee(double amount)

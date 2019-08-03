@@ -4,7 +4,7 @@ namespace Contrato.Services
 {
     interface IOnlinePaymentService
     {
-        double SimpleInterestRate(double portionValue, int currentMonth);
+        double SimpleInterestRate(double portionRate, int currentMonth);
         double PaymentFee(double amount);
     }
 }
